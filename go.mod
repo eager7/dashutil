@@ -5,7 +5,7 @@ go 1.12
 require (
 	github.com/aead/siphash v1.0.1
 	github.com/davecgh/go-spew v1.1.1
-	github.com/eager7/dashd v0.0.0-20200708084540-a316308713da
+	github.com/eager7/dashd v0.0.0-20200708090040-57fe5c8c2c15
 	github.com/golang/protobuf v1.4.2 // indirect
 	github.com/hpcloud/tail v1.0.0 // indirect
 	github.com/kkdai/bstream v1.0.0

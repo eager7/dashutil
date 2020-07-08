@@ -9,8 +9,8 @@ github.com/btcsuite/websocket v0.0.0-20150119174127-31079b680792/go.mod h1:ghJtE
 github.com/btcsuite/winsvc v1.0.0/go.mod h1:jsenWakMcC0zFBFurPLEAyrnc/teJEM1O46fmI40EZs=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/eager7/dashd v0.0.0-20200708084540-a316308713da h1:d7+GF1IbTMKm6AEBzUMNBepoMe2oTb6QpDqZyEtspg0=
-github.com/eager7/dashd v0.0.0-20200708084540-a316308713da/go.mod h1:EGLCLnpP6jFzG7IV7YXZztFhCRfpjzm8CERQ4vBHxnE=
+github.com/eager7/dashd v0.0.0-20200708090040-57fe5c8c2c15 h1:xv1hLE0uuwgWu4NZzIR0WFwaar7nCRhYRc0DCegERW8=
+github.com/eager7/dashd v0.0.0-20200708090040-57fe5c8c2c15/go.mod h1:EGLCLnpP6jFzG7IV7YXZztFhCRfpjzm8CERQ4vBHxnE=
 github.com/eager7/dashlog v0.0.0-20200708080715-dccb4e26949a h1:tAxhIxOyQAQc9CKB0OV5OqQAliqYQ2gHvchXrrSsYHI=
 github.com/eager7/dashlog v0.0.0-20200708080715-dccb4e26949a/go.mod h1:6cdKX7AZUh1KZrsknrClKA1Bb4NTdgYQiUMRkjFMRUo=
 github.com/eager7/dashutil v0.0.0-20200708084234-28d2373b32fe/go.mod h1:s488YereaSkw8Uk1ASilsJN4t+v3AYv+dzT66CfAyG4=
