@@ -142,7 +142,7 @@ func DecodeAddress(addr string, defaultNet *chaincfg.Params) (Address, error) {
 	oneIndex := strings.LastIndexByte(addr, '1')
 	if oneIndex > 1 {
 		prefix := addr[:oneIndex+1]
-		if chaincfg.IsBech32SegwitPrefix(prefix) {
+		if strings.HasPrefix("", prefix) {
 			witnessVer, witnessProg, err := decodeSegWitAddress(addr)
 			if err != nil {
 				return nil, err
@@ -518,7 +518,7 @@ type AddressWitnessPubKeyHash struct {
 
 // NewAddressWitnessPubKeyHash returns a new AddressWitnessPubKeyHash.
 func NewAddressWitnessPubKeyHash(witnessProg []byte, net *chaincfg.Params) (*AddressWitnessPubKeyHash, error) {
-	return newAddressWitnessPubKeyHash(net.Bech32HRPSegwit, witnessProg)
+	return newAddressWitnessPubKeyHash("", witnessProg)
 }
 
 // newAddressWitnessPubKeyHash is an internal helper function to create an
@@ -564,7 +564,7 @@ func (a *AddressWitnessPubKeyHash) ScriptAddress() []byte {
 // with the passed bitcoin network.
 // Part of the Address interface.
 func (a *AddressWitnessPubKeyHash) IsForNet(net *chaincfg.Params) bool {
-	return a.hrp == net.Bech32HRPSegwit
+	return a.hrp == ""
 }
 
 // String returns a human-readable string for the AddressWitnessPubKeyHash.
@@ -609,7 +609,7 @@ type AddressWitnessScriptHash struct {
 
 // NewAddressWitnessScriptHash returns a new AddressWitnessPubKeyHash.
 func NewAddressWitnessScriptHash(witnessProg []byte, net *chaincfg.Params) (*AddressWitnessScriptHash, error) {
-	return newAddressWitnessScriptHash(net.Bech32HRPSegwit, witnessProg)
+	return newAddressWitnessScriptHash("", witnessProg)
 }
 
 // newAddressWitnessScriptHash is an internal helper function to create an
@@ -655,7 +655,7 @@ func (a *AddressWitnessScriptHash) ScriptAddress() []byte {
 // with the passed bitcoin network.
 // Part of the Address interface.
 func (a *AddressWitnessScriptHash) IsForNet(net *chaincfg.Params) bool {
-	return a.hrp == net.Bech32HRPSegwit
+	return a.hrp == ""
 }
 
 // String returns a human-readable string for the AddressWitnessScriptHash.
