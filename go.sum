@@ -12,8 +12,8 @@ github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSs
 github.com/eager7/dashd v0.0.0-20200708084540-a316308713da/go.mod h1:EGLCLnpP6jFzG7IV7YXZztFhCRfpjzm8CERQ4vBHxnE=
 github.com/eager7/dashd v0.0.0-20200708092524-793caa7f779c h1:N/lCg66P7V69vk3q2MA9X93Sh3V9S7xTocJMLvVhCLk=
 github.com/eager7/dashd v0.0.0-20200708092524-793caa7f779c/go.mod h1:fN+uyZ7Pg9oxB7Rz4JNTUK3EPF3SnC5psJSxYfpufT0=
-github.com/eager7/dashd v0.0.0-20200811084009-9a1abfccc924 h1:ubIFR4djo9LkOxO2m3NJDyikpWaT+DvWdfbSLu4uasc=
-github.com/eager7/dashd v0.0.0-20200811084009-9a1abfccc924/go.mod h1:0p8Xz7DCsbVA5tz5q5mtBEspKc1AdYZGkU6trjBM2IY=
+github.com/eager7/dashd v0.0.0-20200811085328-d74e7ae0e6ca h1:eBkS2Deflef5LRVHAXoSC9tapWfofJ3kB/btS1v8XWk=
+github.com/eager7/dashd v0.0.0-20200811085328-d74e7ae0e6ca/go.mod h1:0p8Xz7DCsbVA5tz5q5mtBEspKc1AdYZGkU6trjBM2IY=
 github.com/eager7/dashlog v0.0.0-20200708080715-dccb4e26949a h1:tAxhIxOyQAQc9CKB0OV5OqQAliqYQ2gHvchXrrSsYHI=
 github.com/eager7/dashlog v0.0.0-20200708080715-dccb4e26949a/go.mod h1:6cdKX7AZUh1KZrsknrClKA1Bb4NTdgYQiUMRkjFMRUo=
 github.com/eager7/dashutil v0.0.0-20200708084234-28d2373b32fe/go.mod h1:s488YereaSkw8Uk1ASilsJN4t+v3AYv+dzT66CfAyG4=
